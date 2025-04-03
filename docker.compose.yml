@@ -1,0 +1,13 @@
+
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "9000:9000"
+    environment:
+      - MONGO_URI=mongodb+srv://gunakanumuri5:Nopassword@530@cluster0.ecqfh.mongodb.net/job_bot?retryWrites=true&w=majority
+    volumes:
+      - .:/app
+    restart: always

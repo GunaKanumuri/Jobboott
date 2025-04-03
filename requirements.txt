@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+PyMongo
+bcrypt
+python-dotenv
+pdfplumber
